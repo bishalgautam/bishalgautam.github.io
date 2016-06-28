@@ -2465,7 +2465,7 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"),url("../../images/tower.jpeg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
@@ -2496,15 +2496,17 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width:  8.25em;
+
 		}
 
 /* Footer */
 
 	#footer {
+		
 		bottom: 0;
 		left: 0;
-		padding: 0 4em 6em 0;
+		padding: 0 6em 10em 0;
 		position: fixed;
 		text-align: right;
 		width: 35%;
