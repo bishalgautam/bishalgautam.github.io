@@ -2116,11 +2116,13 @@
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
+
 		}
 
 			ul.alt li {
 				border-top: solid 2px #efefef;
 				padding: 0.5em 0;
+				width: 100%;
 			}
 
 				ul.alt li:first-child {
@@ -2465,9 +2467,9 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"),url("../../images/tower.jpeg");
+		background-image: url("images/overlay.png"),url("../../images/bg.jpg");
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
+		background-repeat: repeat,						no-repeat;
 		background-size: auto,								auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
@@ -2504,9 +2506,9 @@
 
 	#footer {
 		
-		bottom: 0;
+		bottom: -2em;
 		left: 0;
-		padding: 0 6em 10em 0;
+		padding: 0 6em 2em 0;
 		position: fixed;
 		text-align: right;
 		width: 35%;
